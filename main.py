@@ -1,6 +1,3 @@
-def main():
-    print("Hello from the-hollow-frontier!")
+from src import Game
 
-
-if __name__ == "__main__":
-    main()
+Game().run()
